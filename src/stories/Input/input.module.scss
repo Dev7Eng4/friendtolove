@@ -1,0 +1,41 @@
+// @import 'sass/reset';
+
+.form-group {
+  width: 100%;
+  display: flex;
+
+  &.row {
+    flex-direction: row;
+  }
+
+  &.column {
+    flex-direction: column;
+  }
+}
+
+.form-control {
+  // width: 100%;
+  padding: 5px 10px;
+  border: 1px solid black;
+  // padding: 1rem 0.5rem;
+
+  &.circle {
+    border-radius: 999px;
+  }
+
+  &.square {
+    border-radius: 4px;
+  }
+
+  &.elip {
+    border-radius: 10px;
+  }
+
+  &:focus {
+    border: 1px solid black;
+  }
+}
+
+.form-label {
+  font-size: 2.5rem;
+}
